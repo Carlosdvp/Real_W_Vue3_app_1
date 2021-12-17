@@ -2,19 +2,19 @@
   "events": [
     {
       "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
+      "category": "animal warfare",
+      "title": "Cat Training Day",
+      "description": "Find your new feline friend and get ready for battle.",
+      "location": "Meow Fucker",
       "date": "January 28, 2022",
       "time": "12:00",
-      "organizer": "Kat Laydee"
+      "organizer": "Pussy De Vile"
     },
     {
       "id": 456,
       "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
+      "title": "Ancestral Gardening",
+      "description": "Join us as we tend to the community farm.",
       "location": "Flora City",
       "date": "March 14, 2022",
       "time": "10:00",
@@ -22,9 +22,9 @@
     },
     {
       "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
+      "category": "chillin",
+      "title": "Beach walk",
+      "description": "Pick up sexy females.",
       "location": "Playa Del Carmen",
       "date": "July 22, 2022",
       "time": "11:00",

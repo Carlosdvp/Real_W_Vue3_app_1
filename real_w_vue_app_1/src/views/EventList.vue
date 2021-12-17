@@ -8,11 +8,12 @@
 <script>
 
 // @ is an alias to /src
-import EventCard from "@/components/EventCard.vue";
-import axios from 'axios'
+import EventCard from "@/components/EventCard.vue"
+import EventService from '@/services/EventService.js'
+// import axios from 'axios'
 
 export default {
-  name: "Home",
+  name: "EventList",
   components: {
     EventCard
   },
@@ -23,7 +24,7 @@ export default {
   },
   created() {
     //get events from database
-    axios.get('my-json-server.typicode.com/Carlosdvp/Real_W_Vue3_app_1/real_w_vue_app_1/data/events')
+    EventService.getEvents()
       .then(res => {
         this.events = res.data
       })
@@ -41,5 +42,3 @@ export default {
   align-items: center;
 }
 </style>
-
-'https://my-json-server.typicode.com/Code-Pop/Real-World_Vue-3/events'

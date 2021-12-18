@@ -3,7 +3,7 @@
 import { createRouter, createWebHashHistory } from "vue-router"
 import EventList from "../views/EventList.vue"
 import EventDetails from '../views/EventDetails.vue'
-import About from '../views/About.vue'
+import AboutPage from '../views/AboutPage.vue'
 
 const routes = [
   {
@@ -19,8 +19,8 @@ const routes = [
   },
   {
     path: "/About",
-    name: "About",
-    component: About
+    name: "AboutPage",
+    component: AboutPage
   }
 ];
 

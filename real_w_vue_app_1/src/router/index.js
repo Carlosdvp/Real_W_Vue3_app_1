@@ -1,12 +1,21 @@
-import { createRouter, createWebHashHistory } from "vue-router";
-import EventList from "../views/EventList.vue";
+/* eslint-disable */ 
+
+import { createRouter, createWebHashHistory } from "vue-router"
+import EventList from "../views/EventList.vue"
+import EventDetails from '../views/EventDetails.vue'
 import About from '../views/About.vue'
 
 const routes = [
   {
     path: "/",
     name: "EventList",
-    component: EventList,
+    component: EventList
+  },
+  {
+    path: '/event/:id',
+    name: 'EventDetails',
+    props: true,
+    component: EventDetails
   },
   {
     path: "/About",
@@ -17,7 +26,7 @@ const routes = [
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes,
+  routes
 });
 
 export default router;
